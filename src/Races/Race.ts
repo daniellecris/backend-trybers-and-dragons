@@ -1,6 +1,6 @@
 abstract class Race {
-  protected readonly _name: string;
-  protected readonly _dexterity: number;
+  private _name: string;
+  private _dexterity: number;
 
   constructor(name: string, dexteriry: number) {
     this._name = name;
